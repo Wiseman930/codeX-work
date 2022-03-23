@@ -2,8 +2,27 @@
 <html lang="en">
 <head>
     <style> 
+    table, th, td {
+        border:1px solid black;
+        border-collapse: collapse;
+ 
+}
+   .content {
+       float:left;
+   }
+   .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
 
-
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ 
      </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,27 +30,71 @@
     <title>Wiseman</title>
 </head>
 <body>
-  <div class="container">
-   <div align="center"  class="header" >
+<div class="container">
+   <div align="center" class="header" >
    <h1 style="float:left;"> Wiseman Mabusela </h1>
    <img src="C:\Users\wisem\Desktop\CODEX CURRICULUM\WEBPAGE\IMG_20210425_232129.jpg" width="350" height ="360" alt="logo"/> 
-  
+   </div>
 </div>
-<div  class="content"> 
-    <h2 >Durban</h2> 
-    <img src="C:\Users\wisem\Desktop\wallpaperflare.com_wallpaper.jpg" width="250" height ="250" style="float:left;"/>
+<div class="content"> 
+    <h2>Durban</h2>
+    <img src="C:\Users\wisem\Desktop\wallpaperflare.com_wallpaper.jpg" width="400" height ="250" style="float:left;"/>
+    
    <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Pellentesque nec nam aliquam sem et tortor consequat id. 
-    Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. 
-    Aliquam ut porttitor leo a. Quis eleifend quam adipiscing vitae proin. 
-    Ut faucibus pulvinar elementum integer enim neque volutpat. 
-    Pellentesque diam volutpat commodo sed egestas egestas. 
-   </p>
-  </div>
+    Bustling Durban is the hub of the Kwa-Zulu Natal’s business and industry and pulses with all the energy of a major port city. Luxury hotels abound on Durban’s beachfront, and this city is often referred to as South Africa’s Miami Beach.
 
-  <div class="footer" > </div>
+Durban is one of the fastest-growing urban areas in the world. Its port is the busiest in South Africa and also one of the 10 largest in the world. Durban is blessed with balmy weather all year round, making it a perfect holiday paradise. The beachfront is bordered by holiday accommodation and 5 Star hotels and luxury apartments, all of which have an idyllic view of the Indian Ocean. 
+   </p>
+  
+  </div>
+  <div id ="div2"> <h2>Foreign language</h2> 
+    <p> A language of southern Africa, derived from the form of Dutch brought to the Cape by Protestant settlers in the 17th century. It is an official language of South Africa, spoken by around 6 million people as their first language.</p>
+    <table style="width:80%">
+        <tr>
+          <th style="width:50%">English</th>
+          <th>Afrikaans</th>
+          </tr>
+
+        <tr>
+          <td>warm</td>
+          <td>hot</td>
+         
+        </tr>
+
+        <tr>
+          <td>time</td>
+          <td>tyd</td>
+        </tr>
+
+        <tr>
+            <td>said</td>
+            <td>gesê</td>
+        </tr>
+
+        <tr>
+            <td>home</td>
+            <td>huis</td>
+        </tr>
+
+      </table>
+   </div>
+   <div id="div3"> 
+    <h2>Historical places in Newcastle</h2>
+   </div>
+   <div class="row">
+        <div class="column">
+            <h4>Majuba College
+            </h4>  <img src="C:\Users\wisem\Desktop\WEB PICS\IMG_20220322_212246.jpg" style="width:70%"/>
+        </div>
+        <div class="column">
+         <h4>The Carnegie Art Gallery</h4>  <img src="C:\Users\wisem\Desktop\WEB PICS\IMG_20220322_212410.jpg" style="width:70%"/>
+        </div>
+        <div class="column">
+            <h4>Ngagane river</h4> <img src="C:\Users\wisem\Desktop\WEB PICS\IMG_20220322_212946.jpg" style="width:70%" />
+        </div>
+      </div>
+  
+  <div class="footer" ></div>
   </div>
  
 </body>
