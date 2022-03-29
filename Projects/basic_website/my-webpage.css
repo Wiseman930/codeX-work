@@ -1,31 +1,25 @@
 .header{
-    display: flex;
+    
+   display: flex;
+   align-items:center; 
 }
+
+
 .row{
     display:flex;
-}
-.column{
-   
-    justify-content:space-evenly;
-}
-.content{
-    display: flex;
 }
 .row1{
     display:flex; 
 }
-.header{
-    margin:60px;
-    justify-content:center;
-    align-items:center;
-}
+
 h1{
-    margin:30px;
-    font-size: 3.2em;
-    
+   
+    font-size: 3.2em;  
+   
 }
 h2{
     margin:30px; 
+  
 }
 h4 {
     margin:30px; 
@@ -34,9 +28,11 @@ table, th, td {
     border:1px solid black;
     border-collapse: collapse;
  
-    
-  }
+ }
  
 .row2{
     margin:10px;
 }
+.clearfix {
+    overflow: auto;
+  }
