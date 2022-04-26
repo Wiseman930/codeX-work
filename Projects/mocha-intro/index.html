@@ -14,10 +14,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.min.js"></script>
     <script>
         mocha.setup('bdd');
+        mocha.checkLeaks();
         var assert = chai.assert;
     </script>
-
-    <script src="tests.js" charset="utf-8"></script>
     <script src="greet.js"></script>
     <script src="greet.tests.js"></script>
     <script>
