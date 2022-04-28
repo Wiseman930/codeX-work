@@ -1,7 +1,7 @@
 describe("the greet fuction", function(){
 
-    it("should greet Lindani with 'Hello, Lindani'", function(){
-        assert.equal('Hello, Lindani', greet("Lindani"))
+    it("should greet Arnold with 'Hello, Arnold'", function(){
+        assert.equal('Hello, Arnold', greet("Arnold"))
 
     });
     it("should greet Wiseman with 'Hello, Wiseman'", function(){
