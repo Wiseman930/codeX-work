@@ -1,8 +1,8 @@
 describe ("the sameWeekday function", function(){
-    it("should return a bolean if a registration number taken in is from Gauteng or Eastern Cape or Limpopo or Mpumalanga with 'true'", function(){
+    it("should return a bolean if two different dates have matching a weekday with 'true'", function(){
         assert.equal(true, sameWeekday('2016-11-19', '2016-11-26'));
     })
-    it("should return a bolean if a registration number taken in is not from Gauteng or Eastern Cape or Limpopo or Mpumalanga with 'false'", function(){
+    it("should return a bolean if two different dates do not have a matching a weekday with 'false'", function(){
         assert.equal(false, sameWeekday('2016-11-19', '2016-11-28'));
     })
 })
